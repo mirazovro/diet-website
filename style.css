@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 20px;
+}
+.skip{
+    color: orangered
+}
+div h1{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.btn{
+    background-image:linear-gradient(orange, orangered);
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding: 12px 18px;
+    border-radius: 30px;
+   
+}
+
+section{
+    display: flex;
+}
+
+.half-width{
+    width:50%;
+}
+.half-width img{
+    width:85%;
+}
+
+#heroien{
+    height: 400px;
+    width: 520px;
+   
+}
+
+.about{
+    margin-top: 180px;
+    text-align: start;
+}
+
+
+
+.about-area{
+    background-image: url(image/7.png);
+    background-repeat: no-repeat; 
+    background-position: left;
+    margin-left: -10px;
+    height: 500px;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 120px;
+}
+
+.contactbtn{
+    text-decoration: none;
+    background-image: linear-gradient( orangered, orange, yellow, tomato);
+    margin: 20px 30px 20px 30px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+}
+
+#about{
+    margin: auto;
+    
+}
+
+.lastsec{
+    /* margin-bottom: 550px; */
+    display: flex;
+    align-items: center;
+}
+
+.recipies{
+    margin: 2px 1em 0 auto;
+     
+}
+.recipetitle{
+    display: flex;
+    margin: 1em;
+    margin: -3px;
+
+}
+
+.coverimg1 img{
+    height: 300px;
+    border-radius: 7px;
+}
+
+.coverimg2 img{
+    height: 300px;
+    margin-left: 40px;
+    border-radius: 7px;
+}
+    .coverimg1{
+        width: 50%;
+        
+
+    }
+
+    .coverimg2{
+        width: 50%;
+        margin-right: 160px;
+    
+    }
+
+    .continer{
+        background-color: beige;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+
+    .footer{
+        background-color: darkslateblue;
+        margin-top: 30px;
+    }
+    .fcenter{
+        margin-left: 500px;
+    }
+
+    #eat{
+        color: orangered;
+    }
+    h2{
+        color: lightslategrey;
+        font-size: 50px;
+    }
